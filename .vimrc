@@ -8,7 +8,7 @@ filetype indent on
 filetype plugin on
 
 set nu
-set statusline=%m\[%n\]%<%f%h%r%w%y\ %{&ff}\ %{strftime(\"%d/%m/%Y-%H:%M\")}%=\ col:%c%V\ lin:%l\/%L\ %P
+set statusline=%m\[%n\]%<\ %f:%l\ %h%r%w%y\ %{&ff}\ %=\ col:%c%V\ lin:%l\/%L\ %P
 set laststatus=2
 set hidden
 
