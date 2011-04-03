@@ -41,3 +41,4 @@ nnoremap ' `
 set wildmenu
 set wildmode=list:longest
 set scrolloff=3
+set shortmess=aT
