@@ -34,3 +34,6 @@ map <C-H> <C-W>h
 map <C-L> <C-W>l
 
 nnoremap <Leader>g :GundoToggle<CR>
+
+nnoremap ` '
+nnoremap ' `
