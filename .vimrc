@@ -19,6 +19,9 @@ augroup ftruby
 	autocmd FileType ruby match ExtraWhitespace /\s\+$\| \+\ze\t/
 augroup END
 
+autocmd FileType sass set et sw=2 ts=2 sts=2
+autocmd FileType javascript set et sw=2 ts=2 sts=2
+
 runtime macros/matchit.vim
 
 function! VerticalSplitBuffer(buffer)
