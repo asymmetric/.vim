@@ -21,6 +21,7 @@ augroup END
 
 autocmd FileType sass set et sw=2 ts=2 sts=2
 autocmd FileType javascript set et sw=2 ts=2 sts=2
+autocmd BufRead *.git/COMMIT_EDITMSG DiffGitCached | wincmd p
 
 runtime macros/matchit.vim
 
@@ -44,7 +45,6 @@ nnoremap ' `
 set wildmenu
 set wildmode=longest,full
 set scrolloff=3
-set shortmess=aT
 
 " remember marks, registers, searches, buffer list
 "set viminfo='20,<50,s10,h,%
