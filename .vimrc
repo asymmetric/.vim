@@ -15,7 +15,7 @@ set hidden
 augroup ftruby
 	autocmd!
 	autocmd FileType ruby set et sw=2 ts=2 sts=2
-  autocmd FileType ruby highlight ExtraWhitespace ctermfg=15 ctermbg=4 guifg=#CF6A4C guibg=#420E09
+	autocmd FileType ruby highlight ExtraWhitespace ctermfg=15 ctermbg=4 guifg=#CF6A4C guibg=#420E09
 	autocmd FileType ruby match ExtraWhitespace /\s\+$\| \+\ze\t/
 augroup END
 
