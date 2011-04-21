@@ -47,4 +47,4 @@ set scrolloff=3
 set shortmess=aT
 
 " remember marks, registers, searches, buffer list
-set viminfo='20,<50,s10,h,%
+"set viminfo='20,<50,s10,h,%
