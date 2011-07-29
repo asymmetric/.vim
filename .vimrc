@@ -47,6 +47,9 @@ nnoremap <Leader>g :GundoToggle<CR>
 nnoremap ` '
 nnoremap ' `
 
+nnoremap <Leader>b :TagbarOpenAutoClose<CR>
+let g:tagbar_ctags_bin = '/usr/local/bin/ctags'
+
 set wildmenu
 set wildmode=longest,full
 set scrolloff=3
