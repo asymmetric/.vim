@@ -21,7 +21,7 @@ augroup END
 
 autocmd FileType sass set et sw=2 ts=2 sts=2
 autocmd FileType javascript set et sw=2 ts=2 sts=2
-autocmd BufRead *.git/COMMIT_EDITMSG DiffGitCached | wincmd p
+"autocmd BufRead *.git/COMMIT_EDITMSG DiffGitCached | wincmd p
 autocmd BufRead,BufNewFile *.less setfiletype css
 autocmd BufRead,BufNewFile *.json setfiletype javascript
 autocmd BufRead,BufNewFile *.dryml setfiletype html
