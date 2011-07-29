@@ -57,3 +57,5 @@ set scrolloff=3
 set nobackup
 set nowritebackup
 set noswapfile
+
+colors solarized
