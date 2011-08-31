@@ -61,4 +61,6 @@ set nobackup
 set nowritebackup
 set noswapfile
 
+set cursorline
+
 colors solarized
