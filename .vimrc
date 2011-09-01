@@ -11,6 +11,7 @@ set nu
 set statusline=%m\[%n\]%<\ %f:%l\ %h%r%w%y\ %{&ff}\ %=\ col:%c%V\ lin:%l\/%L\ %P
 set laststatus=2
 set hidden
+set tabstop=4
 
 augroup ftruby
 	autocmd!
