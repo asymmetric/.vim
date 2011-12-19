@@ -28,7 +28,7 @@ augroup ftruby
         autocmd FileType ruby set omnifunc=rubycomplete#Complete
 augroup END
 
-autocmd FileType javascript set et sw=2 ts=2 sts=2
+autocmd FileType javascript set et sw=4 ts=4 sts=4
 
 "autocmd BufRead *.git/COMMIT_EDITMSG DiffGitCached | wincmd p
 autocmd BufRead,BufNewFile *.less setfiletype css
