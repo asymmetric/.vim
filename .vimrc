@@ -18,18 +18,18 @@ set hidden
 set expandtab
 set shiftwidth=2
 set softtabstop=2
+set tabstop=2
 
 
 augroup ftruby
 	autocmd!
-	autocmd FileType ruby set et sw=2 ts=2 sts=2
 	autocmd FileType ruby highlight ExtraWhitespace ctermfg=15 ctermbg=4 guifg=#CF6A4C guibg=#420E09
 	autocmd FileType ruby match ExtraWhitespace /\s\+$\| \+\ze\t/
         autocmd FileType ruby set omnifunc=rubycomplete#Complete
 augroup END
 
-autocmd FileType sass set et sw=2 ts=2 sts=2
 autocmd FileType javascript set et sw=2 ts=2 sts=2
+
 "autocmd BufRead *.git/COMMIT_EDITMSG DiffGitCached | wincmd p
 autocmd BufRead,BufNewFile *.less setfiletype css
 autocmd BufRead,BufNewFile *.json setfiletype javascript
