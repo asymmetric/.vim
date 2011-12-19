@@ -65,7 +65,7 @@ let g:tagbar_ctags_bin = '/usr/local/bin/ctags'
 
 set wildmenu
 set wildmode=longest,full
-set wildignore=tmp/**
+set wildignore=tmp/**,vendor/gems/**,vendor/cache/**,vendor/bundle/**
 set scrolloff=3
 
 " remember marks, registers, searches, buffer list
