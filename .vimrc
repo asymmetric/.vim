@@ -39,6 +39,8 @@ autocmd FileType haml match ExtraWhitespace /\s\+$\| \+\ze\t/
 
 autocmd FileType python set et sw=4 ts=4 sts=4
 
+autocmd BufRead,BufNewFile *.zsh-theme setfiletype zsh
+
 runtime macros/matchit.vim
 
 function! VerticalSplitBuffer(buffer)
