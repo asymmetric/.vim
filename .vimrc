@@ -68,6 +68,8 @@ set wildmode=longest,full
 set wildignore=tmp/**,vendor/gems/**,vendor/cache/**,vendor/bundle/**
 set scrolloff=3
 
+match ErrorMsg '^\(<\|=\|>\)\{7\}\([^=].\+\)\?$'
+
 " remember marks, registers, searches, buffer list
 "set viminfo='20,<50,s10,h,%
 
