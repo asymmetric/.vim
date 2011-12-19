@@ -78,5 +78,6 @@ set nowritebackup
 set noswapfile
 
 set cursorline
+set cursorcolumn
 
 colors solarized
