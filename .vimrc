@@ -80,4 +80,4 @@ set noswapfile
 set cursorline
 set cursorcolumn
 
-colors solarized
+colors twilight256
