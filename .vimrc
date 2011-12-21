@@ -62,6 +62,7 @@ nnoremap ' `
 
 nnoremap <Leader>b :TagbarToggle<CR>
 let g:tagbar_ctags_bin = '/usr/local/bin/ctags'
+let g:tagbar_autoclose = 1
 
 set wildmenu
 set wildmode=longest,full
