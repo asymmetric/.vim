@@ -37,6 +37,7 @@ autocmd BufRead,BufNewFile *.json setfiletype javascript
 autocmd BufRead,BufNewFile *.dryml setfiletype html
 autocmd FileType haml highlight ExtraWhitespace ctermfg=15 ctermbg=4 guifg=#CF6A4C guibg=#420E09
 autocmd FileType haml match ExtraWhitespace /\s\+$\| \+\ze\t/
+autocmd FileType haml set sw=2 sts=2 ts=2
 
 autocmd FileType python set et sw=4 ts=4 sts=4
 
