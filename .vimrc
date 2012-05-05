@@ -14,6 +14,9 @@ set statusline=%m\[%n\]%<\ %f:%l\ %h%r%w%y\ %{&ff}\ %=\ col:%c%V\ lin:%l\/%L\ %P
 set laststatus=2
 set hidden
 
+set ignorecase
+set smartcase
+
 " tabs and such
 set expandtab
 set shiftwidth=2
