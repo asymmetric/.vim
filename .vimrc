@@ -1,4 +1,4 @@
-call pathogen#helptags()
+call pathogen#infect()
 call pathogen#runtime_append_all_bundles()
 
 set nocompatible
