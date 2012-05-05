@@ -25,10 +25,10 @@ set tabstop=2
 
 
 augroup ftruby
-	autocmd!
-	autocmd FileType ruby highlight ExtraWhitespace ctermfg=15 ctermbg=4 guifg=#CF6A4C guibg=#420E09
-	autocmd FileType ruby match ExtraWhitespace /\s\+$\| \+\ze\t/
-        autocmd FileType ruby set omnifunc=rubycomplete#Complete
+    autocmd!
+    autocmd FileType ruby highlight ExtraWhitespace ctermfg=15 ctermbg=4 guifg=#CF6A4C guibg=#420E09
+    autocmd FileType ruby match ExtraWhitespace /\s\+$\| \+\ze\t/
+    autocmd FileType ruby set omnifunc=rubycomplete#Complete
 augroup END
 
 autocmd FileType javascript set et sw=4 ts=4 sts=4
