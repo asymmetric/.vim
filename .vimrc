@@ -12,7 +12,7 @@ call vundle#rc()
 
 Bundle 'gmarik/vundle'
 
-Bundle 'wincent/Command-T/'
+Bundle 'wincent/Command-T'
 Bundle 'vim-scripts/Rename'
 Bundle 'othree/html5.vim'
 Bundle 'tsaleh/vim-matchit'
