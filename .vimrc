@@ -70,7 +70,7 @@ nnoremap <Leader>r :CommandTBuffer<CR>
 
 set wildmenu
 set wildmode=longest,full
-set wildignore=tmp/**,vendor/gems/**,vendor/cache/**,vendor/bundle/**
+"set wildignore=tmp/**,vendor/gems/**,vendor/cache/**,vendor/bundle/**
 set scrolloff=3
 
 match ErrorMsg '^\(<\|=\|>\)\{7\}\([^=].\+\)\?$'
