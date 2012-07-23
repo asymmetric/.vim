@@ -66,6 +66,8 @@ nnoremap <Leader>b :TagbarToggle<CR>
 let g:tagbar_ctags_bin = '/usr/local/bin/ctags'
 let g:tagbar_autoclose = 1
 
+nnoremap <Leader>r :CommandTBuffer<CR>
+
 set wildmenu
 set wildmode=longest,full
 set wildignore=tmp/**,vendor/gems/**,vendor/cache/**,vendor/bundle/**
