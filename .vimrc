@@ -7,6 +7,28 @@ filetype on
 filetype indent on
 filetype plugin on
 
+set rtp+=~/.vim/bundle/vundle/
+call vundle#rc()
+
+Bundle 'gmarik/vundle'
+
+Bundle 'wincent/Command-T/'
+Bundle 'vim-scripts/Rename'
+Bundle 'othree/html5.vim'
+Bundle 'tsaleh/vim-matchit'
+Bundle 'scrooloose/syntastic'
+Bundle 'majutsushi/tagbar'
+Bundle 'pangloss/vim-javascript'
+Bundle 'vim-ruby/vim-ruby'
+Bundle 'vim-scripts/twilight256'
+Bundle 'tpope/vim-git'
+Bundle 'tpope/vim-markdown'
+Bundle 'tpope/vim-rails'
+Bundle 'tpope/vim-surround'
+Bundle 'nelstrom/vim-textobj-rubyblock'
+Bundle 'kana/vim-textobj-user'
+Bundle 'tpope/vim-vividchalk'
+
 set omnifunc=syntaxcomplete#Complete
 
 set nu
